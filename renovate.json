@@ -1,0 +1,7 @@
+{
+  "extends": ["config:recommended"],
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "vulnerabilityFixStrategy": "highest"
+  }
+}

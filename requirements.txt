@@ -1,0 +1,2 @@
+# CVE-2023-36464 affects pypdf versions before 3.9.0.
+pypdf==3.8.1
