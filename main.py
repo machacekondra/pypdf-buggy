@@ -1,8 +1,8 @@
-"""Extract text from a PDF using the vulnerable pypdf release in requirements.txt."""
+"""Extract text from a PDF using the vulnerable PyPDF2 release in requirements.txt."""
 
 import argparse
 
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 
 
 def main() -> None:
