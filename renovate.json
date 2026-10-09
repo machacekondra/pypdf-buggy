@@ -1,6 +1,2 @@
 {
-  "vulnerabilityAlerts": {
-    "labels": ["security"],
-    "vulnerabilityFixStrategy": "highest"
-  }
 }
