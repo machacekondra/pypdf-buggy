@@ -5,11 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: pip
-    directory: "/python"
-    open-pull-requests-limit: 0
-    registries:
-      - lightwell-python
-    insecure-external-code-execution: allow
+  - package-ecosystem: "pip"
+    directory: "/" # Change this if your requirements.txt or pyproject.toml is in a subfolder (e.g., "/backend")
     schedule:
-      interval: "weekly"
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
